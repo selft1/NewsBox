@@ -12,7 +12,8 @@ a log that is kept of videos from that channel that you've already watched to ma
 the videos that you haven’t seen, then turn on your tv and play them. Then finally log the videos as watched, delete the video files,
 and turn off the tv. Again, this isn't perfect, and I'll list some bugs later (please don't hesitate to report them or send me your fix ideas)
 in the Help.py file I've got global variables where you can add your YouTube API key and the channel id for your favorite channel. 
-  --The script is currently set to run at a given time. There are two timers, one to prep your videos to make sure they're downloaded
+
+--The script is currently set to run at a given time. There are two timers, one to prep your videos to make sure they're downloaded
       ahead of time, and one to play the videos. I have mine set for the ungodly hours of 6am and 6:45am respectively. 
       This is set in the NewsBox.py file and the numbers should be fairly obvious. You can hard code these numbers in the lines. I may make this
       easier to change later. There's also an if statement that makes sure it doesn't wake you up on weekends, only weekdays
