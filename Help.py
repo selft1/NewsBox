@@ -8,6 +8,9 @@ import time
 import re
 import cec
 
+api_key = ''
+channel_id = ''
+
 def TV_On():
     cec.init()
     TV = cec.Device(0)
@@ -55,8 +58,6 @@ def Play_News():
 
 
 def Prep_News():
-    channel_id = "UC4w_tMnHl6sw5VD93tVymGw" 
-    api_key = "AIzaSyDVTPRznPPGKvmzK0UNFyQdDawKjpkN76I"
     Clear_TodaysLineup()
     TodaysLineup = []
     Latest_IG_Links = Get_LatestEp(api_key,channel_id)
