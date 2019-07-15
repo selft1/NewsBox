@@ -35,7 +35,7 @@ Some known bugs
   - I've had the script run and do everything exactly right but then leave a black VLC media player up. I didn't notice this until I
     checked the next day, because it turns off your tv when the video finishes playing. For some reason this causes the next video viewing
     session to not work right. This is probably my highest priority bug right now
-  - Kind of a bug, king of a note, whenever a video starts I get 2 errors from pulseaudio. I've read up on it and its common and doesn't
+  - Kind of a bug, kind of a note, whenever a video starts I get 2 errors from pulseaudio. I've read up on it and its common and doesn't
     really mean anything since the audio still works fine so I'm choosing to ignore it and you should too
   - Sometimes when the video is cut off there is a high pitched sound left ringing until the tv is shut off. Probably related to the first
     bug I pointed out where VLC stays open
