@@ -22,6 +22,7 @@ Some things you're going to need
   - a CEC enabled TV (this is how the raspberry pi will turn on your tv to show the videos and turn it off when it's done)
   - a YouTube API key. follow this: https://www.slickremix.com/docs/get-api-key-for-youtube/
   - the channel id of your favorite channel: https://commentpicker.com/youtube-channel-id.php
+  - wherever you copy this repo to, also create a folder called VideoCache (github hates me and won't add that empty folder to the repo)
 
 Some libraries you'll need
   - python-vlc https://wiki.videolan.org/PythonBinding
