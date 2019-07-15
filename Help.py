@@ -9,7 +9,7 @@ import re
 import cec
 
 api_key = ''
-channel_id = ''
+channel_id = '' #PSST. InsideGaming's channel ID is UC4w_tMnHl6sw5VD93tVymGw :)
 
 def TV_On():
     cec.init()
